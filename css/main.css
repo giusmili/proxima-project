@@ -35,3 +35,20 @@ section h2::after{
 footer *{
     text-align: center;
 }
+
+/* responsive mobile */
+@media screen and (max-width: 120rem){
+    body{
+        padding: 0 1%;
+        text-align: justify;
+    }
+    section h2{
+        text-align: center;
+    }
+    
+}
+@media screen and (orientation: landscape){
+    section h2{
+        text-align: left;
+    }
+}
