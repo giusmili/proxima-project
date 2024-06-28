@@ -67,6 +67,7 @@ for (let data in proximaCentauri) {
 }
 
 /* tableau d'objets */
+
 const product = [{
   name: "car",
   price: 6000

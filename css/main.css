@@ -10,11 +10,24 @@ header h1{
     text-align: center;
     font-weight: normal;
 }
-.class ul, section{
+section h2{
+    font-weight: normal;
+}
+section h2::after{
+    content: " du système"
+}
+.section-primary ul{
+    border: solid .1rem transparent;
+    padding: 1rem;
+    
+}
+
+.section-primary ul, section{
     max-width: 120rem;
     margin: 0 auto;
 }
-.class ul li img{
+
+.section-primary  ul li img{
     display: inline-block;
     width: 100%;
     object-fit: cover;
