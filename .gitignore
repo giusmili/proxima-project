@@ -1,0 +1,4 @@
+*.pdf
+*.txt
+src/
+node_modules/
