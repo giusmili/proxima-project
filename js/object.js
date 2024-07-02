@@ -55,7 +55,7 @@ const title = document.querySelector("title");
 const header = document.querySelector("header h1");
 
 title.innerText = "Proxima du Centaure";
-header.innerText = "Proxima Alpha Centuri C";
+header.innerText += "Proxima Alpha Centuri C";
 
 for (let data in proximaCentauri) {
   console.log(`${data} : ${proximaCentauri[data]}`);
