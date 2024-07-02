@@ -38,7 +38,7 @@ for (let data in user) {
 }
 console.log(user);
 const proximaCentauri = {
-  cover: "https://www.eso.org/public/archives/images/screen/eso1629b.jpg",
+  cover: "https://images.unsplash.com/photo-1532692966749-619e0feb9e78?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   nom: "Alpha Centauri C",
   description: "Système planétaire le plus proche du système solaire au sein de la Voie lactée.",
   distanceTerre: "4,246 années-lumière",
@@ -55,7 +55,7 @@ const title = document.querySelector("title");
 const header = document.querySelector("header h1");
 
 title.innerText = "Proxima du Centaure";
-header.innerText += "Proxima B centuri";
+header.innerText = "Proxima B centuri";
 
 for (let data in proximaCentauri) {
   console.log(`${data} : ${proximaCentauri[data]}`);
