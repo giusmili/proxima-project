@@ -4,14 +4,19 @@
     --background: #222;
     --color: #fff;
 }
-
 header h1{
     line-height: 7.5rem;
     text-align: center;
     font-weight: normal;
+    font-size: xx-large;
+}
+section p{
+    padding: 1rem 0;
 }
 section h2{
     font-weight: normal;
+    font-size: x-large;
+    border-bottom: solid .1rem #535151fa;
 }
 section h2::after{
     content: " du système"
@@ -20,6 +25,9 @@ section h2::after{
     border: solid .1rem transparent;
     padding: 1rem;
     
+}
+.section-primary ul li{
+    padding-bottom: .5rem 0;
 }
 
 .section-primary ul, section{
@@ -33,6 +41,7 @@ section h2::after{
     object-fit: cover;
     border-radius: 2rem;
 }
+
 footer *{
     text-align: center;
 }
@@ -46,10 +55,17 @@ footer *{
     section h2{
         text-align: center;
     }
+    header h1{
+       font-size: 1.8rem;
+    }
     
 }
 @media screen and (orientation: landscape){
     section h2{
         text-align: left;
+    }
+    header h1{
+      
+        font-size: xx-large;
     }
 }
